@@ -336,7 +336,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/PageNotFoundErrorResponse"
+                $ref: "#/components/schemas/BadRequestErrorResponse"
         "422":
           description: Unprocessable Entity
           content:
